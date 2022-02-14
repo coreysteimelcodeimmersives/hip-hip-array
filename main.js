@@ -169,22 +169,22 @@ const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimet
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
 
-let newArray = primaries.concat(secondaries);
-let newArrayLength = newArray.length;
-for (let count = 0; count < newArrayLength; count++){
-  console.log(newArray[count]);
-}
+// let newArray = primaries.concat(secondaries);
+// let newArrayLength = newArray.length;
+// for (let count = 0; count < newArrayLength; count++){
+//   console.log(newArray[count]);
+// }
 
-let primariesLength = primaries.length;
-// for readability
-console.log('\n');
-for (let count = 0; count < primariesLength; count++){
-  console.log(primaries[count]);
-}
+// let primariesLength = primaries.length;
+// // for readability
+// console.log('\n');
+// for (let count = 0; count < primariesLength; count++){
+//   console.log(primaries[count]);
+// }
 
-let secondariesLength = secondaries.length;
-console.log('\n');
-for (let count = 0; count < secondariesLength; count++){
-  console.log(secondaries[count]);
-}
+// let secondariesLength = secondaries.length;
+// console.log('\n');
+// for (let count = 0; count < secondariesLength; count++){
+//   console.log(secondaries[count]);
+// }
 
