@@ -147,11 +147,11 @@ const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
 
-// let spliceDino = dinosaurs.splice(4,3);
-// let dinoLength = dinosaurs.length;
-// for (let count = 0; count < dinoLength; count++){
-//   console.log(dinosaurs[count]);
-// }
+dinosaurs.splice(4,3);
+let dinoLength = dinosaurs.length;
+for (let count = 0; count < dinoLength; count++){
+  console.log(dinosaurs[count]);
+}
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
